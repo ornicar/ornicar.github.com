@@ -1,0 +1,34 @@
+header {
+    border-bottom: 1px solid #444;
+}
+header h1 {
+    display: inline;
+}
+header p {
+    display: inline;
+    margin-left: 1em;
+}
+
+#content {
+    max-width: 800px;
+    margin: 2em auto;
+}
+article h1 {
+    font-size: 1.5em;
+}
+article h2 {
+    font-size: 1.3em;
+}
+article h3 {
+    font-size: 1.1em;
+}
+
+pre {
+    background: #202020;
+    color: #fafafa;
+    padding: 1em;
+}
+
+footer {
+    border-top: 1px solid #444;
+}

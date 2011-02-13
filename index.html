@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hairy blog</title>
+    <meta name="description" content="Random geek thoughts of Thibault Duplessis">
+    <meta name="author" content="Thibault Duplessis">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body lang="en" >
+
+    <header>
+        <h1>Hairy blog</h1>
+        <p>It's about sharing open source goodness.</p>
+    </header>
+
+    <section id="content">
+        <article>
+            <header>
+                <h1>Using ranger as vim file manager</h1>
+                <p>Sat Feb 12 23:21:28 PST 2011</p>
+            </header>
+            <section>
+                <h2>The boring introduction</h2>
+                <p>
+                    I'm a passionate <a href="http://www.archlinux.org">Arch Linux</a> and CLI user.
+                    My quest for better tools led me to use <a href="http://www.vim.org">vim</a> for every text-related tasks;
+                    and my current file manager of choice is <a href="http://nongnu.org/ranger">ranger</a>.
+                </p>
+                <p>
+                    Ranger is a really great tool when it comes to browse quickly a complex file tree.
+                    It also excels at copying/moving/deleting/opening files. You should be using it.
+                <p>
+                <h2>The problem</h2>
+                <p>
+                    As a developer, I spend most of my time manipulating text files, so I often switch from vim to ranger.
+                    I wish I can open files in vim from ranger. In fact I can, but ranger will open a new vim instance for each file.
+                    I want to launch ranger from vim, and open the file I select in the same vim instance.
+                </p>
+                <h2>The hope</h2>
+                <p>
+                    One of the great things about open source software is its hackability.
+                    Software, by definition, never does exactly what you need.
+                    If you think it does, it means you don't know what you need
+                    (or you developed the software you use).
+                    vim and ranger beeing open source, let's see how we can manage to make them communicate.
+                </p>
+                <h2>The code</h2>
+                <p>
+                    ranger code is hosted on GitHub. I pinged <a href="https://github.com/hut">hut</a>, the author, and he gave me some advices on how getting the thing done. And here is the result.
+                </p>
+                <h3>Ranger hack</h3>
+
+                When the INVIM environment variable is set, ranger behavior is slightly changed.
+                Instead of launching an application to open a file,
+                it will write the file name in /tmp/ranger-selected-file, and quit immediatly.
+
+                <pre>diff --git a/ranger/defaults/apps.py b/ranger/defaults/apps.py
+index e93ca1b..1585012 100644
+--- a/ranger/defaults/apps.py
++++ b/ranger/defaults/apps.py
+@@ -46,6 +46,7 @@ This example modifies the behaviour of "feh" and adds a custom media player:
+ #### end of the example
+ """
+
++from tempfile import gettempdir
+ from ranger.api.apps import *
+ from ranger.ext.get_executables import get_executables
+
+@@ -54,6 +55,12 @@ class CustomApplications(Applications):
+                """How to determine the default application?"""
+                f = c.file
+
++               if 'INVIM' in os.environ:
++                       tmp_file = gettempdir() + "/ranger-selected-file"
++                       with open(tmp_file, 'w') as tmp:
++                               tmp.write(f.path)
++                       raise SystemExit()
++
+                if f.basename.lower() == 'makefile':
+                        return self.either(c, 'make')</pre>
+
+                <h3>.vimrc tweak</h3>
+
+                When <leader>r is pressed, ranger is launched with INVIM environment variable set to 1.
+                After ranger quits, the selected filename is read from /tmp/ranger/selected-file, and vim opens it.
+
+                <pre>diff --git a/vimrc b/vimrc
+index 6ed5971..7962579 100644
+--- a/vimrc
++++ b/vimrc
+@@ -265,3 +265,12 @@ let g:gist_open_browser_after_post = 1
+ if filereadable("~/.vimrc.local")
+     source ~/.vimrc.local
+ endif
++
++function! Ranger()
++    silent !INVIM=1 ranger
++    let file = system('cat /tmp/ranger-selected-file')
++    exec 'edit '.file
++    redraw!
++endfunction
++
++nmap <leader>r :call Ranger()<cr></pre>
+
+                <h2>It works</h2>
+                <p>
+                    Yeah it's just that simple. I now have my prefered file manager integrated to my prefered code editor.
+                    There is a lot of room for improvements in the quick hacks shown above:
+                    <ul>
+                        <li>The temp file path should not be harcoded (pass it through the env var?)</li>
+                        <li>There is no way to quit ranger without opening a file</li>
+                        <li>It will try to open any filetype in vim</li>
+                    </ul>
+                    But what matters is that, even beeing a python and vimscript beginner, I am able to modify my tools.
+                </p>
+            </section>
+        </article>
+    </section>
+
+    <footer>
+    Thibault Duplessis - <a href="http://github.com/ornicar">http://github.com/ornicar</a> - <a href="http://twitter.com/ornicar">http://twitter.com/ornicar</a>
+    </footer>
+
+</body>
+</html>
