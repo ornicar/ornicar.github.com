@@ -53,12 +53,12 @@
                 </p>
                 <h3>Ranger hack</h3>
 
-                When the INVIM environment variable is set, ranger behavior is slightly changed.
+                When the RANGER_RETURN_FILE environment variable is set, ranger behavior is slightly changed.
                 Instead of launching an application to open a file,
-                it will write the file name in /tmp/ranger-selected-file, and quit immediatly.
+                it will write the file name in the temp file passed through RANGER_RETURN_FILE, and quit immediatly.
 
                 <pre>diff --git a/ranger/defaults/apps.py b/ranger/defaults/apps.py
-index e93ca1b..1585012 100644
+index e93ca1b..44f0684 100644
 --- a/ranger/defaults/apps.py
 +++ b/ranger/defaults/apps.py
 @@ -46,6 +46,7 @@ This example modifies the behaviour of "feh" and adds a custom media player:
@@ -73,52 +73,56 @@ index e93ca1b..1585012 100644
                 """How to determine the default application?"""
                 f = c.file
 
-+               if 'INVIM' in os.environ:
-+                       tmp_file = gettempdir() + "/ranger-selected-file"
-+                       with open(tmp_file, 'w') as tmp:
++               return_file = os.getenv("RANGER_RETURN_FILE")
++               if return_file is not None:
++                       with open(return_file, 'w') as tmp:
 +                               tmp.write(f.path)
 +                       raise SystemExit()
 +
                 if f.basename.lower() == 'makefile':
                         return self.either(c, 'make')</pre>
 
-                <a href="https://github.com/ornicar/ranger/commit/540d503322c5b26910760014e29897dc3549c0f0">View the commit on GitHub</a>
+                <a href="https://github.com/ornicar/ranger/compare/f16b6b2bf31c2be04af7...37c4f2d9">View the diff on GitHub</a>
 
                 <h3>.vimrc tweak</h3>
 
-                When &lt;leader&gt;r is pressed, ranger is launched with INVIM environment variable set to 1.
-                After ranger quits, the selected filename is read from /tmp/ranger/selected-file, and vim opens it.
+                When &lt;leader&gt;r is pressed, ranger is launched with RANGER_RETURN_FILE environment variable set to a temporary file name.
+                After ranger quits, the selected filename is read from the temporary file, and vim opens it.
 
                 <pre>diff --git a/vimrc b/vimrc
-index 6ed5971..7962579 100644
+index 6ed5971..918b79d 100644
 --- a/vimrc
 +++ b/vimrc
-@@ -265,3 +265,12 @@ let g:gist_open_browser_after_post = 1
- if filereadable("~/.vimrc.local")
-     source ~/.vimrc.local
- endif
-+
+@@ -261,6 +261,24 @@ com! -nargs=1 Qfdofile try | sil cfirst |
+ " Gist
+ let g:gist_open_browser_after_post = 1
+
++" Use ranger as vim file manager
 +function! Ranger()
-+    silent !INVIM=1 ranger
-+    let file = system('cat /tmp/ranger-selected-file')
-+    exec 'edit '.file
++    " Get a temp file name without creating it
++    let tmpfile = substitute(system('mktemp -u'), '\n', '', '')
++    " Launch ranger, passing it the temp file name
++    silent exec '!RANGER_RETURN_FILE='.tmpfile.' ranger'
++    " If the temp file has been written by ranger
++    if filereadable(tmpfile)
++        " Get the selected file name from the temp file
++        let filetoedit = system('cat '.tmpfile)
++        exec 'edit '.filetoedit
++        call delete(tmpfile)
++    endif
 +    redraw!
 +endfunction
 +
 +nmap <leader>r :call Ranger()<cr></pre>
 
-                <a href="https://github.com/ornicar/dotfiles/commit/c1b2b6fc4a51ea96d9435cfcabd507ec2f8ff87b">View the commit on GitHub</a>
+                <a href="https://github.com/ornicar/dotfiles/compare/6f4cb5b4...02526197#diff-28">View the diff on GitHub</a>
 
                 <h2>It works</h2>
                 <p>
                     Yeah it's just that simple. I now have my prefered file manager integrated to my prefered code editor.
-                    There is a lot of room for improvements in the quick hacks shown above:
-                    <ul>
-                        <li>The temp file path should not be harcoded (pass it through the env var?)</li>
-                        <li>There is no way to quit ranger without opening a file</li>
-                        <li>It will try to open any filetype in vim</li>
-                    </ul>
+                    There is a lot of room for improvements in the quick hacks shown above.
                     But what matters is that, even beeing a python and vimscript beginner, I am able to modify my tools.
+                    Which leads to the usual conclusion of great blog articles: <strong>Open Source rocks</strong>
                 </p>
             </section>
         </article>
