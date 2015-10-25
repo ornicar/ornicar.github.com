@@ -366,6 +366,10 @@ pre {
   margin-right: auto;
   margin-bottom: 0;
 }
+.unit-article iframe {
+  width: 100%;
+  margin-bottom: 1.625em;
+}
 .unit-article img.left {
   margin-right: 16px;
 }
