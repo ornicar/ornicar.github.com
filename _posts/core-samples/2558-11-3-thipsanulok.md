@@ -104,3 +104,26 @@ Voilà mon poste de travail :
 
 ![piaule]({{ site.url }}/assets/phitsa-piaule.jpg)
 Une photo sans intérêt. Notez l'indication **NO SMOKING** et le cendrier.
+
+Emplettes.
+
+Il me fallait y passer. J'ai horreur de ça, mais je me suis mal démerdé avec les objets.
+
+D'abord j'ai jeté mon pull vim, que j'aime pourtant bien, mais qui est absolument superflu.
+Les chaussettes aussi sont allées à la poubelle. Et les chaussures de marche.
+Ici, ces objets sont aussi inutiles que les couilles du pape. Il fait trop chaud.
+Ensuite, il me manque des slips et t-shirts, dont je change bien deux fois par jour.
+Enfin, mon téléphone est mort. Et ça, c'est emmerdant. J'ai acheté une carte SIM locale
+à l'aéroport, investissement qui s'est révélé crucial. Principalement pour s'orienter.
+
+Inconvénients des cartes papier :
+
+- Il en faut une pour chaque ville, plus une grande pour le pays. C'est encombrant.
+- Il faut se les procurer. Trouver un plan de ville correct est difficile, justement
+parce que tout le monde ici a un smartphone. Tout le monde. Même les plus démunis
+en ont un. Pas de papiers, pas de frics, pas de fringues, rien ; mais ils ont un smartphone.
+- Déplier un plan en ville attire l'attention des tuk-tuk et autres prédateurs de touristes
+- La plupart des rues ne disent pas leur nom, ou alors en Thaï. Exemple :  ถนนในเขตราษฎร์บูรณะ.
+On est bien avancés.
+
+Tout ça est résolu, et plus encore, par une bonne vieille gmap... c'est indispensable.
