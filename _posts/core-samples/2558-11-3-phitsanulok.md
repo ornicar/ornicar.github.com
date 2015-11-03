@@ -105,33 +105,12 @@ Voilà mon poste de travail :
 ![piaule]({{ site.url }}/assets/phitsa-piaule.jpg)
 Une photo sans intérêt. Notez l'indication **NO SMOKING** et le cendrier.
 
-Emplettes.
+Visite du musée historique local, et de la fabrique de bouddhas. Rien de mieux
+que d'observer la conception des statues sacrées pour les démystifier un poil.
+Et puis je marche beaucoup dans la ville, je flâne, je roule en vélo, 
+je sue, avec les mirettes grande ouvertes et le coeur léger.
+Tout le monde me fait de grands sourires, 
+que je leur rends mais nous les farangs on a pas l'habitude !
 
-Il me fallait y passer. J'ai horreur de ça, mais je me suis mal démerdé avec les objets.
-
-D'abord j'ai jeté mon pull vim, que j'aime pourtant bien, mais qui est absolument superflu.
-Les chaussettes aussi sont allées à la poubelle. Et les chaussures de marche.
-Ici, ces objets sont aussi inutiles que les couilles du pape. Il fait trop chaud.
-Ensuite, il me manque des slips et t-shirts, dont je change bien deux fois par jour.
-Enfin, mon téléphone est mort. Et ça, c'est emmerdant. J'ai acheté une carte SIM locale
-avec Internet, investissement qui s'est révélé crucial. Principalement pour s'orienter.
-
-Inconvénients des cartes papier :
-
-- Il en faut une pour chaque ville, plus une grande pour le pays. C'est encombrant.
-- Il faut se les procurer. Trouver un plan de ville correct est difficile, justement
-parce que tout le monde ici a un smartphone. Tout le monde. Même les plus démunis
-en ont un. Pas de papiers, pas de frics, pas de fringues, rien ; mais ils ont un smartphone.
-- Déplier un plan en ville attire l'attention des tuk-tuk et autres prédateurs de touristes
-- La plupart des rues ne disent pas leur nom, ou alors en Thaï. Exemple :  ถนนในเขตราษฎร์บูรณะ.
-On est bien avancés.
-
-Tout ça est résolu, et plus encore, par une bonne vieille gmap... c'est indispensable.
-Et puis avoir Internet pour se renseigner sur les prochaines destinations pendant
-le bus, c'est chénial. J'utilise beaucoup [wikitravel](http://wikitravel.org/en/Thailand).
-
-Pour les fringues j'ai souffert un peu à Khao San (Bangkok) dans un quartier touristique. Nul.
-Et finalement j'ai trouvé mon bonheur au marché communal de Phitsanulok, bien plus sympa.
-Acheter un smartphone (disons-le, c'est plutôt un ordinateur de poche) fut le prétexte
-à mettre les pieds au MBK center de bangkok, sorte de souk gigantesque climatisé
-où l'on vend n'importe quoi, n'importe comment, à n'importe qui. Rigolo.
+![terminator smile](http://media.giphy.com/media/YoB1eEFB6FZ1m/giphy.gif)
+source : Terminator. Sourire, ça se travaille.
