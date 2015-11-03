@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Thipsanulok
+title: Phitsanulok
 ---
 {% include JB/setup %}
 
-Je suis à Thipsanulok, en Thaïlande. Ici aussi, la vie est belle.
+Je suis à Phitsanulok, en Thaïlande. Ici aussi, la vie est belle.
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7611987.074680216!2d100.42065966689907!3d16.490678972492088!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30df97dea117eacb%3A0x79c49a81f26d86bb!2sPhitsanulok+Railway+Station!5e0!3m2!1sen!2sth!4v1446553846829" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
