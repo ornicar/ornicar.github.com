@@ -114,7 +114,7 @@ Les chaussettes aussi sont allées à la poubelle. Et les chaussures de marche.
 Ici, ces objets sont aussi inutiles que les couilles du pape. Il fait trop chaud.
 Ensuite, il me manque des slips et t-shirts, dont je change bien deux fois par jour.
 Enfin, mon téléphone est mort. Et ça, c'est emmerdant. J'ai acheté une carte SIM locale
-à l'aéroport, investissement qui s'est révélé crucial. Principalement pour s'orienter.
+avec Internet, investissement qui s'est révélé crucial. Principalement pour s'orienter.
 
 Inconvénients des cartes papier :
 
@@ -127,3 +127,11 @@ en ont un. Pas de papiers, pas de frics, pas de fringues, rien ; mais ils ont un
 On est bien avancés.
 
 Tout ça est résolu, et plus encore, par une bonne vieille gmap... c'est indispensable.
+Et puis avoir Internet pour se renseigner sur les prochaines destinations pendant
+le bus, c'est chénial. J'utilise beaucoup [wikitravel](http://wikitravel.org/en/Thailand).
+
+Pour les fringues j'ai souffert un peu à Khao San (Bangkok) dans un quartier touristique. Nul.
+Et finalement j'ai trouvé mon bonheur au marché communal de Phitsanulok, bien plus sympa.
+Acheter un smartphone (disons-le, c'est plutôt un ordinateur de poche) fut le prétexte
+à mettre les pieds au MBK center de bangkok, sorte de souk gigantesque climatisé
+où l'on vend n'importe quoi, n'importe comment, à n'importe qui. Rigolo.
