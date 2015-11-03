@@ -113,4 +113,4 @@ Tout le monde me fait de grands sourires,
 que je leur rends mais nous les farangs on a pas l'habitude !
 
 ![terminator smile](http://media.giphy.com/media/YoB1eEFB6FZ1m/giphy.gif)
-source : Terminator. Sourire, ça se travaille.
+source : Terminator. Sourire, ça se travaille, mais je suis à bonne école.
