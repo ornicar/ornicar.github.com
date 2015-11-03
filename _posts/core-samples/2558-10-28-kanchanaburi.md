@@ -7,7 +7,7 @@ title: Kanchanaburi
 Cap à l'Ouest, non loin de la frontière Birmane, vers le Ganesha Park,
 le bon tuyau d'Egil.
 
-Première étape : Kanshanaburi.
+Première étape : Kanchanaburi.
 
 Ce sera écrit plus tard, ou pas du tout. 
 
