@@ -50,6 +50,7 @@ riz, probablement avec du lait... c'est doux et le mariage avec la mangue m'arra
 c'est peut-être les insectes, je suis un peu déçu. Ils en ont de toutes sortes, mais c'est toujours
 très frit et plein d'huile, on sent à peine la différence, et c'est gras.
 
+Et lichess.org ? C'est au second plan, j'ai mieux à faire ! Ça fonctionne sans moi.
 
 Quand vous passez à Sukhothai :
 
