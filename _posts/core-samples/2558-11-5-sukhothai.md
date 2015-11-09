@@ -53,7 +53,7 @@ très frit et plein d'huile, on sent à peine la différence, et c'est gras.
 
 Quand vous passez à Sukhothai :
 
-- Ne prenez pas de tuk-tuk depuis la gare routière. Il y existe passage discret qui conduit à la ville
+- Ne prenez pas de tuk-tuk depuis la gare routière. Il existe un passage discret qui conduit à la ville
 par l'Est de la gare, en passant dans une zone résidencielle typique et qui longe le fleuve, environ 2km de marche.
 - Montez au roof-top du Chopper bar et faites-vous servir un cocktail à l'ananas par la serveuse. Enfin, le serveur. Enfin vous en deciderez. Lady-boy, comme on dit ici !
 - Dans la vieille ville, louez un vélo (30 bahts) pour voir les temples, mais servez-vous-en aussi
