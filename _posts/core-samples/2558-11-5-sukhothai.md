@@ -22,7 +22,7 @@ de tuyaux et de recommandations enthousiastes, qui construisent mes choix de voy
 J'ai aussi tout un tas d'ennemies. Elles sont petites (plus qu'en France), noires aves des jolies
 stries blanches, elles sont légions, silencieuses, voraces, et s'attaquent aux pieds de préférence.
 
-![moustique thailandaise]({{ site.url }}/assets/moustique.jpg) Ne pas gratter. Ça va passer.
+![moustique thailandaise]({{ site.url }}/assets/moustique.jpg) Elles m'aiment beaucoup. Je crains de mal leur rendre tout cet amour.
 
 Sukhothai (qui se traduit par "aube du bonheur") et ses temples de 700 ans !
 Je pédale entre les ruines construites par les Khmers et embellies par les Thais.
