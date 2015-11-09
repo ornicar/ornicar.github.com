@@ -55,7 +55,7 @@ Quand vous passez à Sukhothai :
 
 - Ne prenez pas de tuk-tuk depuis la gare routière. Il y existe passage discret qui conduit à la ville
 par l'Est de la gare, en passant dans une zone résidencielle typique et qui longe le fleuve, environ 2km de marche.
-- Montez au roof-top du Chopper bar et faites-vous servir un cocktail à l'ananas par la serveuse. Enfin, le serveur. Enfin vous en deciderez.
+- Montez au roof-top du Chopper bar et faites-vous servir un cocktail à l'ananas par la serveuse. Enfin, le serveur. Enfin vous en deciderez. Lady-boy, comme on dit ici !
 - Dans la vieille ville, louez un vélo (30 bahts) pour voir les temples, mais servez-vous-en aussi
 pour explorer le village derrière la route. Il y a un étang où paissent des vaches aux longues oreilles,
 et où les Thais pêchent à l'épuisette, de l'eau jusqu'aux épaules.
