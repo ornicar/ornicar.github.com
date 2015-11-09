@@ -19,7 +19,7 @@ de tuyaux et de recommandations enthousiastes, qui construisent mes choix de voy
 
 ![songthaew]({{ site.url }}/assets/songthaew.JPG) [source : wikimedia] Un Songthaew. Compter 30 à 40 bahts pour moins de 20 Km. (40 bahts = 1 euro)
 
-J'ai aussi tout un tas d'ennemies. Elles sont petites (plus qu'en France), noires aves des jolies
+J'ai aussi tout un tas d'ennemies. Elles sont petites (plus qu'en France), noires avec des jolies
 stries blanches, elles sont légions, silencieuses, voraces, et s'attaquent aux pieds de préférence.
 
 ![moustique thailandaise]({{ site.url }}/assets/moustique.jpg) Elles m'aiment beaucoup. Je crains de mal leur rendre tout cet amour.
