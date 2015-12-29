@@ -1,0 +1,62 @@
+---
+layout: post
+title: Chiang Mai, et puis Laos
+---
+{% include JB/setup %}
+
+J'avais plus envie d'écrire, alors j'ai plus écrit.
+
+Passons directement à ma localisation présente :
+
+Nong-Khiam au Laos.
+
+C'est un village dans un écrin de montagnes acérées. Très joli.
+
+Je loue une 125 et je m'élance sur une piste, dans la forêt. Je contourne et grimpe une multitude de collines.
+Derrière chaque virage, une nouvelle vue sur les montagnes. Aucun véhicule sur la piste, mais parfois des gosses
+sur des vieux vélos trop grands. De temps en temps, un petit village Hmong ou Khmu. Je me suis apparemment aventuré
+assez loin pour que la vue d'un touriste suscite des émotions. Tout ça est très rigolo !
+Soudain sur la piste, 8 bonhommes qui marchent, en portant de gros ballots. Je les dépasse. Leur chargement semble
+très lourd. Depuis où trimballent-ils tout ça, depuis quand, jusqu'où vont-ils ??
+Je fais demi-tour et gesticule une invitation à grimper sur ma bécane. Le plus vieux s'installe avec son énorme chargement.
+Ce sont des briques. Les mecs trimballent de gros sacs de briques, à pied, d'un village à l'autre.
+Quelques kilomètres plus loin, le type me fait arrêter à l'entrée d'un village. Il pose ses briques à côté d'une petite
+maison en construction, et je reprends ma route.
+J'ai bien pensé à faire demi-tour pour aller chercher les autres, mais bon, ils sont encore 7. Qu'ils se démerdent.
+
+La piste continue à s'enfoncer dans la forêt; je fais une longue pose au bord d'une rivière, pour écouter les arbres et
+dévisager les insectes. Et puis demi-tour, car je suis trop loin de tout pour tomber en panne d'essence.
+
+Je repasse devant la maison en construction, tous les gars sont arrivés. Ô joie ! Je suis reconnu et hélé.
+On m'invite à m'assoir sur une carpette avec les ouvriers. On partage le Lao-Lao (whisky local fait avec du riz gluant),
+et les clopes de tabac local roulées dans du papier d'écolier usagé. Les mecs font avec les moyens du bord.
+Apparemment tous leurs clous sont tordus - récupérés de chantiers de démolition ? - et il faut les
+redresser un par un. On bouffe des petits poissons bouillis avec du piment. Entiers, les poissons, la tête, la queue,
+les entrailles. C'est assez dégueulasse il faut dire.
+Je repars avant d'être trop affecté par le Lao-Lao. J'ai passé un super moment, et je me promets d'arpenter le Laos
+à moto en prenant tout le monde en stop.
+
+Le frein arrière est assez lâche. De toutes façons, j'ai une entorse au pouce gauche (qui est entré dans l'eau de travers,
+quand j'ai sauté du "grand canyon" de Chiang Mai), alors j'utilise surtout la main droite : le frein avant.
+Rouler en moto dans ces montagnes est un bonheur grisant, mais dans ce virage là il y avait du gravier, sur lequel la
+roue avant a dérapé quand j'ai freiné pour éviter le type qui arrivait en face, et la moto s'est couchée, et je suis tombé.
+Heureusement, tout est lent au Laos, et je roulais à la mode locale. Je m'en tire avec des bleus, de la peau en moins,
+et quelques côtes cassées.
+Rassurez-vous : tout va bien. C'est pas grave les côtes cassées, ça m'est déjà arrivé deux fois : à San Francisco en roller,
+et à Paris en vélo. Y'a rien à faire, juste attendre que ça se répare tout seul. Par contre c'est assez douloureux au début
+et ça immobilise pendant un mois ou deux.
+Content d'avoir la codéine que maman avait mis dans mon sac.
+
+Je suis donc bloqué à Nong Khiam, en attendant de pouvoir affronter les heures de route cahoteuse qui me séparent des autres villes.
+C'est un assez bon endroit pour être en convalescence, la vue est imbattable.
+Je suis un peu inquiet que mon ordi portable ne charge plus, par contre.
+À part ça hier sur lichess il y a eu le plus grand tournoi d'échecs de tous les temps: 4600 joueurs. Le serveur n'a pas tenu le coup
+et s'est vautré lamentablement, tout comme moi. Ça tombe bien, j'ai le temps pour les réparations...
+
+
+La suite du voyage est un peu retardée, mais j'ai un plan. Du Laos je vais rejoindre le Vietnam, aller à Hanoi, descendre tout le pays
+jusqu'au Sud et passer au Cambodge (prévoir un mois dans chaque pays, plus si les visas le permettent). Puis retour à Bangkok pour
+faire un visa indien de trois mois, et voler pour New Delhi. De là, probablement cruiser le nord de l'Inde en Royal Enfield,
+et si possible longer la côte Ouest vers le Sud.
+
+Un plan que je ne tiendrai probablement pas, mais quand même ! Je suis tout excité !
